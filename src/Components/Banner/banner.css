@@ -1,0 +1,45 @@
+.lb_banner {
+  /* background-image: url("../../assets/Images/D21342631_WLD_Mi_Redmi_Note10Pro_tallhero_1500x600._CB667000819_.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; */
+  min-height: 90vh;
+  background-color: #041836;
+  /* light: "#232F3E",
+          DEFAULT: "#131921 */
+}
+
+@media only screen and (max-width: 600px) {
+  .lb_banner {
+    /* background-image: url("../../assets/Images/D21342631_WLD_Mi_Redmi_Note10Pro_tallhero_1500x600._CB667000819_.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; */
+    min-height: 60vh;
+    background-color: #041836;
+    /* light: "#232F3E",
+          DEFAULT: "#131921 */
+  }
+}
+
+.lb_banner_content {
+  padding-top: 10%;
+}
+.lb_banner_content_text {
+  padding-top: 18%;
+}
+.lb_banner_content h2 {
+  font-size: 60px;
+}
+
+@media only screen and (max-width: 600px) {
+  .lb_banner_content {
+    padding-top: 20%;
+  }
+  .lb_banner_content_text {
+    padding-top: 18%;
+  }
+  .lb_banner_content h2 {
+    font-size: 30px;
+  }
+}

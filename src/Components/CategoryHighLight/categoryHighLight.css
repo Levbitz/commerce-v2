@@ -1,0 +1,12 @@
+.highlight_link_wrap {
+  border-radius: 10%;
+  background: coral;
+  padding: 5px 0px;
+  color: #fff;
+  font-size: 15px;
+}
+.highlight_link_wrap:hover {
+  background-color: #fff;
+  color: coral;
+  transition: 0.5s ease-in;
+}

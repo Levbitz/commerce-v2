@@ -1,0 +1,40 @@
+.lb_top_curve {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.lb_top_curve svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 192px;
+}
+
+.lb_top_curve .shape-fill {
+  fill: #182c44;
+}
+
+.lb_bottom_curve {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.lb_bottom_curve svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 163px;
+}
+
+.lb_bottom_curve .shape-fill {
+  fill: #112339;
+}

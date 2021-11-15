@@ -1,0 +1,9 @@
+.fliker {
+  margin-top: -100px;
+}
+
+@media only screen and (max-width: 600px) {
+  .fliker {
+    margin-top: -30px;
+  }
+}

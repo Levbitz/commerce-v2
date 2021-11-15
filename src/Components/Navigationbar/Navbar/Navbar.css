@@ -1,0 +1,23 @@
+.nav_wrapper {
+  display: "flex";
+  background: "#064757";
+  justify-content: "space-between";
+  align-items: "center";
+  padding-left: 50;
+}
+
+@media only screen and (max-width: 600px) {
+  .nav_container {
+    padding-left: 0px !important;
+  }
+}
+
+.logo {
+  width: 150px;
+}
+
+@media only screen and (max-width: 600px) {
+  .logo {
+    width: 100px;
+  }
+}
